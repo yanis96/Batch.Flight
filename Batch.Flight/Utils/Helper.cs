@@ -171,7 +171,7 @@ namespace Batch.Flight.Models.Utils
                         command.Parameters.AddWithValue("@numVol", data.Flight_icao);
                     }
 
-                    DateTime now = DateTime.Now;
+                    string now = DateTime.Now.ToString("dd/MM/yyyy");
                     command.Parameters.AddWithValue("@dateHist", now);
 
                     if (data.Lat == null)
