@@ -21,13 +21,13 @@ namespace Batch.Flight
         static void Main(string[] args)
         {
             client = new HttpClient();
-            var json = Helper.GetDataAsync(client, DATA_URL).GetAwaiter().GetResult(); // get data from flight api
+            var json = Helper.GetDataAsync(client, DATA_URL).GetAwaiter().GetResult(); // get data from AirLabs api
             data = new List<Data>();
             data = JObject.Parse(json).SelectToken("response").ToObject<List<Data>>();
-            Console.WriteLine("deonnée recupérées !!");
+            Console.WriteLine("données recupérées !!");
 
             //Clearing tables
-            Helper.ClearTables(DB_CONNECTION);
+            //Helper.ClearTables(DB_CONNECTION);
 
             Console.WriteLine("Inserting data ...");
 
@@ -52,8 +52,14 @@ namespace Batch.Flight
         private static void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
             Console.WriteLine("Inserting to HISTORY at {0}", e.SignalTime);
-            foreach (Data item in data)
+            List<Data> newData = new List<Data>();
+            var json = Helper.GetDataAsync(client, DATA_URL).GetAwaiter().GetResult();
+            newData = JObject.Parse(json).SelectToken("response").ToObject<List<Data>>();
+
+            foreach (Data item in newData)
             {
+                Helper.InsertToHistory(DB_CONNECTION, item);
+                Helper.InsertToVol(DB_CONNECTION, item);
                 Helper.InsertToHistory(DB_CONNECTION, item);
             }
             Console.WriteLine("Inserting Done at{0}", e.SignalTime);
