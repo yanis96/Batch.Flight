@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xNq7U+VVugAAtHGKjnI+RJawcJXu9ONV45nD80ii4kL7PFC6BL+BbX+180FCXrw5hZGTLQiIWeGAie8ikcZb6g==",
+  "dgSpecHash": "9HEnuegANMP1otGv4baFg9/hk6tkGsdD+5hj19MidIQ00rNdEFjBlxQfuT45nIuEPmhHOwLUG6i3Wsns6CNimA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj",
+  "projectFilePath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bouze\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\bouze\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj": {}
+    "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj": {
+    "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj",
+        "projectUniqueName": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj",
         "projectName": "Batch.Flight",
-        "projectPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj",
+        "projectPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\Batch.Flight\\Batch.Flight\\Batch.Flight.csproj",
         "packagesPath": "C:\\Users\\bouze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\Batch.Flight\\Batch.Flight\\obj\\",
+        "outputPath": "C:\\Users\\bouze\\Downloads\\Master 1\\Dev Logiciel Avancé\\GIT\\MIGRATION OTHER AZURE ACCOUNT\\Batch.Flight\\Batch.Flight\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bouze\\AppData\\Roaming\\NuGet\\NuGet.Config",
